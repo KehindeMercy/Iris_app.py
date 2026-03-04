@@ -53,6 +53,4 @@ if submit_button:
 prediction = model.predict(input_data)
 
 st.subheader("Prediction Result")
-
 st.success(f"Predicted species: {prediction[0]}")
-
